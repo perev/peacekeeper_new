@@ -15,6 +15,74 @@
     <string name="new_task_add">Add</string>
     <string name="drawer_open">Slider Menu Opened</string>
     <string name="drawer_close">Slider Menu Closed</string>
+    <string name="joinGroup">Join group</string>
+    <string name="createGroup">Create group</string>
+    <string name="addPicture">Add picture</string>
+    <string name="takePhoto">Take photo</string>
+    <string name="addTask">Add task</string>
+    <string name="description">Description</string>
+    <string name="searchGN">Search by group name</string>
+    <string name="leilighet">Leilighet 23B</string>
+    <string name="logo">Logo</string>
+    <string name="plus">Plus</string>
+    <string name="createAccount">Create Account</string>
+    <string name="usernameInput">Username:</string>
+    <string name="passwordInput">Password:</string>
+    <string name="login">Log In</string>
+    <string name="logoDescription">Logo Description</string>
+    <string name="info">Information</string>
+    <string name="unniTran">Unni Tran</string>
+    <string name="addPerson">Add person to group</string>
+    <string name="done">DONE</string>
+    <string name="menu">Menu</string>
+    <string name="allTasks">All Tasks</string>
+    <string name="closedTasks">Closed Tasks</string>
+    <string name="openTasks">Open Tasks</string>
+    <string name="toiletPaper">Toilet Paper</string>
+    <string name="open">OPEN</string>
+    <string name="cloth">Cloth</string>
+    <string name="dishwasherBrush">Dishwasher brush</string>
+    <string name="closed">CLOSED</string>
+    <string name="descriptionInput">Description:</string>
+    <string name="responsibleInput">Responsible:</string>
+    <string name="none">None</string>
+    <string name="searchUsername">Search by username</string>
+    <string name="unniTran2">unnitran</string>
+    <string name="beResponsible">Be responsible</string>
+    <string name="doneTask">Mark this task done</string>
+    <string name="robinKarlsen">Robin Karlsen</string>
+    <string name="youOwe">you owe</string>
+    <string name="youAreOwed">you are owed</string>
+    <string name="totalBalance">total balance</string>
+    <string name="nokMinus">-50 NOK</string>
+    <string name="nokPlus">0 NOK</string>
+    <string name="oweRobin">You owe Robin 50 NOK</string>
+    <string name="unniBought">Unni Tran bought toilet paper</string>
+    <string name="robinBought">Robin Karlsen bought dishwasher brush</string>
+    <string name="loggedInAs">You are logged in as</string>
+    <string name="accountSettings">Account settings</string>
+    <string name="notificationSettings">Notification settings</string>
+    <string name="logOut">Log out</string>
+    <string name="copyright">Copyright © 2014</string>
+    <string name="name">Name</string>
+    <string name="nameInput">Name:</string>
+    <string name="lambi">Lambi 6pk</string>
+    <string name="changePasswordInput">Change your password:</string>
+    <string name="currency">Default currency:</string>
+    <string name="saveChanges">Save changes</string>
+    <string name="mobileNotifications">MOBILE NOTIFICATIONS</string>
+    <string name="addTask2">When a task is added</string>
+    <string name="taskEdited">When a task is edited</string>
+    <string name="taskFinished">When a task is finished</string>
+    
+    <string-array name="currency_arrays">
+        <item>NOK</item>
+        <item>EUR</item>
+        <item>GBP</item>
+        <item>USD</item>
+        <item>SEK</item>
+        <item>DKK</item>
+    </string-array>
     
     <!-- Nav Drawer Menu Items -->
 	<string-array name="nav_drawer_items">
