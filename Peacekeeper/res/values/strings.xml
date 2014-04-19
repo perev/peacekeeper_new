@@ -85,23 +85,23 @@
     </string-array>
     
     <!-- Nav Drawer Menu Items -->
-	<string-array name="nav_drawer_items">
-	    <item>Home</item>
-	    <item>Financials</item>
-	    <item>Settings</item>
-	    <item>Group</item>
-	    <item>History</item>
-	</string-array>
-	
-	<!-- Nav Drawer Menu Item Icons -->
-	<!-- Keep them in the order the titles are in! -->
-	<array name="nav_drawer_icons">
-	    <item>@drawable/house</item>
-	    <item>@drawable/money</item>
-	    <item>@drawable/settings3</item>
-	    <item>@drawable/group</item>
-	    <item>@drawable/history</item>
-	</array>
+    <string-array name="nav_drawer_items">
+        <item >Home</item>
+        <item >Financials</item>
+        <item >My Group</item>
+        <item >History</item>
+        <item >Settings</item>
+    </string-array>
+    
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/house</item>
+        <item>@drawable/money</item>
+        <item>@drawable/group</item>
+        <item>@drawable/history</item>
+        <item>@drawable/settings3</item>
+    </array>
 	
 	<!-- Content Description -->
     <string name="desc_list_item_icon">Item Icon</string>
