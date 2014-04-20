@@ -1,5 +1,10 @@
 package hiof.android14.group26.peacekeeper;
 
+import hiof.android14.group26.peacekeeper.slidingMenu.FinancialsFragment;
+import hiof.android14.group26.peacekeeper.slidingMenu.GroupFragment;
+import hiof.android14.group26.peacekeeper.slidingMenu.HistoryFragment;
+import hiof.android14.group26.peacekeeper.slidingMenu.HomeFragment;
+import hiof.android14.group26.peacekeeper.slidingMenu.SettingsFragment;
 import hiof.android14.group26.peacekeeper.slidingMenu.NavDrawerItem;
 import hiof.android14.group26.peacekeeper.slidingMenu.NavDrawerListAdapter;
 
@@ -106,8 +111,6 @@ public class MainActivity extends ActionBarActivity implements
 		}
 		
 		/* ------------ Sliding Menu onCreate ------------ */
-//		super.onCreate(savedInstanceState);
-//        setContentView(R.layout.activity_main);
  
         mTitle = mDrawerTitle = getTitle();
  
@@ -137,6 +140,8 @@ public class MainActivity extends ActionBarActivity implements
          
         // Recycle the typed array
         navMenuIcons.recycle();
+        
+        mDrawerList.setOnItemClickListener(new SlideMenuClickListener());
  
         // setting the nav drawer list adapter
         adapter = new NavDrawerListAdapter(getApplicationContext(),
@@ -205,8 +210,7 @@ public class MainActivity extends ActionBarActivity implements
 	@Override
 	public void onTabSelected(ActionBar.Tab tab,
 			FragmentTransaction fragmentTransaction) {
-		// When the given tab is selected, switch to the corresponding page in
-		// the ViewPager.
+		// When the given tab is selected, switch to the corresponding page in the ViewPager.
 		mViewPager.setCurrentItem(tab.getPosition());
 	}
 
@@ -233,8 +237,7 @@ public class MainActivity extends ActionBarActivity implements
 		@Override
 		public Fragment getItem(int position) {
 			// getItem is called to instantiate the fragment for the given page.
-			// Return a PlaceholderFragment (defined as a static inner class
-			// below).
+			// Return a PlaceholderFragment (defined as a static inner class below).
 			if(position==0){
 				AllTasksFragment fragment = new AllTasksFragment();
 				return fragment;
@@ -303,9 +306,7 @@ public class MainActivity extends ActionBarActivity implements
 		
 	}
 	
-	
 
-	
     /**
      * Slide menu item click listener
      * */
@@ -345,19 +346,19 @@ public class MainActivity extends ActionBarActivity implements
         Fragment fragment = null;
         switch (position) {
         case 0:
-            //fragment = new HomeFragment();
+        	fragment = new HomeFragment();
             break;
         case 1:
-            //fragment = new FinancialsFragment();
+            fragment = new FinancialsFragment();
             break;
         case 2:
-            //fragment = new SettingsFragment();
+            fragment = new GroupFragment();
             break;
         case 3:
-            //fragment = new GroupFragment();
+            fragment = new HistoryFragment();
             break;
         case 4:
-            //fragment = new HistoryFragment();
+        	fragment = new SettingsFragment();
             break;
         default:
             break;
