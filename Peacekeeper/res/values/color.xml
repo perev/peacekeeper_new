@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="ProjectGreenBlue">#003333</color>
+    <color name="TitleColor">#ff3333</color>
     <color name="list_divider">#272727</color>
     <color name="list_background_pressed">#194747</color>
 

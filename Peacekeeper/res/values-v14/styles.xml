@@ -35,6 +35,14 @@
 
     </style>
 
+    <style name="ActionBar.Solid.Example" parent="android:Widget.AppCompat.Light.ActionBar.Solid.Inverse" >
+        <item name="android:titleTextStyle">@style/TitleColor</item>
+    </style>
+
+    <style name="TitleColor" parent="android:TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/TitleColor</item>
+    </style>
+    
     <style name="ActionBar.Solid.Example" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
         <item name="android:background">@drawable/ab_solid_example</item>
         <item name="android:backgroundStacked">@drawable/ab_stacked_solid_example</item>

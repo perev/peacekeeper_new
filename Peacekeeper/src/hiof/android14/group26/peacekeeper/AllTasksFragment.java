@@ -11,7 +11,8 @@ public class AllTasksFragment extends ListFragment{
 		super.onCreate(savedInstanceBundle);
 
 		//TODO: get data from database and fill list here
-		String[] values = new String[] {"Open Task 1", "Chosen Task 2", "Closed Task 3", "Closed Task 4"};
+		//String[] values = new String[] {"Open Task 1", "Chosen Task 2", "Closed Task 3", "Closed Task 4"};
+		String[] values = new String[] {" "};
 
 		ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(),
 		        R.layout.fragment_all_tasks,R.id.label, values);
