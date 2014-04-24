@@ -24,11 +24,12 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_marginTop="270dp"
+        android:layout_marginTop="360dp"
         android:layout_height="wrap_content" >
 
         <Button
-            android:id="@+id/button1"
+            android:id="@+id/btnLogIn"
+            android:onClick="startLogInActivity"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/login" />
@@ -36,7 +37,8 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnCreateAccount"
+        android:onClick="startCreateAccountActivity"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/createAccount" />

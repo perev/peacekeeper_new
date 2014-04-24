@@ -45,27 +45,30 @@
         android:orientation="vertical" >
         
         <Button
-            android:id="@+id/button1"
+            android:id="@+id/btnAccountSettings"
             style="?android:attr/buttonStyleSmall"
             android:layout_width="match_parent"
             android:layout_height="35dp"
             android:layout_marginTop="30dp"
+            android:onClick="startAccountActivity"
             android:text="@string/accountSettings" />
         
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/btnAccountNotification"
             style="?android:attr/buttonStyleSmall"
             android:layout_width="match_parent"
             android:layout_height="35dp"
             android:layout_marginTop="5dp"
+            android:onClick="startNotificationActivity"
             android:text="@string/notificationSettings" />
         
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/btnLogOut"
             style="?android:attr/buttonStyleSmall"
             android:layout_width="match_parent"
             android:layout_height="35dp"
             android:layout_marginTop="5dp"
+            android:onClick="startLogOutActivity"
             android:text="@string/logOut" />
     </LinearLayout>
 

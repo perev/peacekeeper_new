@@ -1107,6 +1107,10 @@ containing a value of this type.
          (such as screen margins) for screens with more than 820dp of available width. This
          would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively).
     
+
+         Customize dimensions originally defined in res/values/dimens.xml (such as
+         screen margins) for sw720dp devices (e.g. 10" tablets) in landscape here.
+    
          */
         public static final int activity_horizontal_margin=0x7f080015;
         public static final int activity_vertical_margin=0x7f080016;
@@ -1325,53 +1329,57 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f050016;
         public static final int action_menu_presenter=0x7f050017;
         public static final int action_mode_close_button=0x7f050024;
-        public static final int action_settings=0x7f050060;
+        public static final int action_settings=0x7f050064;
         public static final int activity_chooser_view_content=0x7f050025;
         public static final int always=0x7f05000b;
         public static final int beginning=0x7f050011;
+        public static final int btnAccountNotification=0x7f050062;
+        public static final int btnAccountSettings=0x7f050061;
+        public static final int btnCreateAccount=0x7f05005d;
+        public static final int btnLogIn=0x7f05005c;
+        public static final int btnLogOut=0x7f050063;
         public static final int btn_createGroup=0x7f050058;
         public static final int btn_info=0x7f05005a;
         public static final int btn_joinGroup=0x7f050059;
-        public static final int button1=0x7f050044;
+        public static final int button1=0x7f050042;
         public static final int button2=0x7f05004b;
-        public static final int button3=0x7f05005f;
-        public static final int checkBox1=0x7f05005c;
-        public static final int checkBox2=0x7f05005d;
-        public static final int checkBox3=0x7f05005e;
+        public static final int checkBox1=0x7f05005e;
+        public static final int checkBox2=0x7f05005f;
+        public static final int checkBox3=0x7f050060;
         public static final int checkbox=0x7f05002d;
         public static final int collapseActionView=0x7f05000d;
         public static final int counter=0x7f05004e;
         public static final int default_activity_button=0x7f050028;
         public static final int dialog=0x7f05000e;
         public static final int disableHome=0x7f050008;
-        public static final int drawer_layout=0x7f050047;
+        public static final int drawer_layout=0x7f050045;
         public static final int dropdown=0x7f05000f;
-        public static final int editText1=0x7f05003f;
-        public static final int editText2=0x7f050041;
+        public static final int editText1=0x7f05003d;
+        public static final int editText2=0x7f05003f;
         public static final int edit_query=0x7f050030;
         public static final int end=0x7f050013;
         public static final int expand_activities_button=0x7f050026;
         public static final int expanded_menu=0x7f05002c;
-        public static final int frame_container=0x7f050048;
+        public static final int frame_container=0x7f050046;
         public static final int home=0x7f050014;
         public static final int homeAsUp=0x7f050005;
         public static final int icon=0x7f05002a;
         public static final int ifRoom=0x7f05000a;
         public static final int image=0x7f050027;
         public static final int imageLogo=0x7f050057;
-        public static final int imageView1=0x7f05003c;
+        public static final int imageView1=0x7f050048;
         public static final int imageView2=0x7f05004a;
-        public static final int imageView5=0x7f05003d;
+        public static final int imageView5=0x7f050049;
         public static final int label=0x7f050052;
         public static final int listMode=0x7f050001;
         public static final int list_item=0x7f050029;
-        public static final int list_slidermenu=0x7f050049;
-        public static final int main=0x7f050045;
+        public static final int list_slidermenu=0x7f050047;
+        public static final int main=0x7f050043;
         public static final int middle=0x7f050012;
         public static final int never=0x7f050009;
         public static final int none=0x7f050010;
         public static final int normal=0x7f050000;
-        public static final int pager=0x7f050046;
+        public static final int pager=0x7f050044;
         public static final int progressBar=0x7f05005b;
         public static final int progress_circular=0x7f050018;
         public static final int progress_horizontal=0x7f050019;
@@ -1391,13 +1399,13 @@ containing a value of this type.
         public static final int showCustom=0x7f050007;
         public static final int showHome=0x7f050004;
         public static final int showTitle=0x7f050006;
-        public static final int spinner1=0x7f050043;
+        public static final int spinner1=0x7f050041;
         public static final int split_action_bar=0x7f05001e;
         public static final int submit_area=0x7f050039;
         public static final int tabMode=0x7f050002;
-        public static final int textView1=0x7f05003e;
-        public static final int textView2=0x7f050040;
-        public static final int textView3=0x7f050042;
+        public static final int textView1=0x7f05003c;
+        public static final int textView2=0x7f05003e;
+        public static final int textView3=0x7f050040;
         public static final int textView4=0x7f05004f;
         public static final int textView5=0x7f050050;
         public static final int textView6=0x7f050051;
@@ -1597,6 +1605,10 @@ containing a value of this type.
         public static final int takePhoto=0x7f0a001e;
         public static final int taskEdited=0x7f0a0054;
         public static final int taskFinished=0x7f0a0055;
+        public static final int title_activity_accountSettings=0x7f0a0059;
+        public static final int title_activity_create_account=0x7f0a005c;
+        public static final int title_activity_login=0x7f0a005b;
+        public static final int title_activity_notificationSettings=0x7f0a005a;
         public static final int toiletPaper=0x7f0a0032;
         public static final int totalBalance=0x7f0a0041;
         public static final int unniBought=0x7f0a0045;

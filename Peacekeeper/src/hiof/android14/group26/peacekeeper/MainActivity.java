@@ -16,6 +16,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.app.FragmentPagerAdapter;
+import android.content.Intent;
 import android.content.res.Configuration;
 import android.content.res.TypedArray;
 import android.os.Bundle;
@@ -31,12 +32,14 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
+import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends ActionBarActivity implements
 		ActionBar.TabListener {
-
+	
 	/* -------- Sliding Menu -------- */
 	private DrawerLayout mDrawerLayout;
     private ListView mDrawerList;
@@ -74,7 +77,7 @@ public class MainActivity extends ActionBarActivity implements
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-
+		
 		// Set up the action bar.
 		final ActionBar actionBar = getSupportActionBar();
 		actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
@@ -174,11 +177,36 @@ public class MainActivity extends ActionBarActivity implements
         if (savedInstanceState == null) {
             // on first time display view for first nav item
             displayView(0);
-        }
-		
+        }	
+	}
+	
+	// Buttons - Settings screen
+	public void startAccountActivity(View view) {
+		Intent intent = new Intent(this, AccountActivity.class);
+		startActivity(intent);
+	}
+	
+	public void startNotificationActivity(View view) {
+		Intent intent = new Intent(this, NotificationActivity.class);
+		startActivity(intent);
+	}
+	
+	public void startLogOutActivity(View view) {
+		Intent intent = new Intent(this, LogOutActivity.class);
+		startActivity(intent);
+	}
+	
+	public void startLogInActivity(View view) {
+		Intent intent = new Intent(this, LogInActivity.class);
+		startActivity(intent);
+	}
+	
+	public void startCreateAccountActivity(View view) {
+		Intent intent = new Intent(this, CreateAccountActivity.class);
+		startActivity(intent);
 	}
 
-//	TODO: safe to remove this? /sigh
+	//	TODO: safe to remove this? /sigh
 //	@Override
 //	public boolean onOptionsItemSelected(MenuItem item) {
 //		// Handle action bar item clicks here. The action bar will
@@ -190,7 +218,8 @@ public class MainActivity extends ActionBarActivity implements
 //		}
 //		return super.onOptionsItemSelected(item);
 //	}
-	
+
+
 	public boolean onOptionsItemSelected(MenuItem item) {
         // toggle nav drawer on selecting action bar app icon/title
         if (mDrawerToggle.onOptionsItemSelected(item)) {
