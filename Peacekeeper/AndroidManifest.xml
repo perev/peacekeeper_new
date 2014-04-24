@@ -53,20 +53,20 @@
         <activity
             android:name="hiof.android14.group26.peacekeeper.LogInActivity"
             android:label="@string/title_activity_login"
-            android:parentActivityName="hiof.android14.group26.peacekeeper.MainActivity" >
+            android:parentActivityName="hiof.android14.group26.peacekeeper.LogOutActivity" >
             <meta-data
             android:name="android.support.PARENT_ACTIVITY"
-            android:value="hiof.android14.group26.peacekeeper.MainActivity" />
+            android:value="hiof.android14.group26.peacekeeper.LogOutActivity" />
                 
         </activity>
         
          <activity
             android:name="hiof.android14.group26.peacekeeper.CreateAccountActivity"
             android:label="@string/title_activity_create_account"
-            android:parentActivityName="hiof.android14.group26.peacekeeper.MainActivity" >
+            android:parentActivityName="hiof.android14.group26.peacekeeper.LogOutActivity" >
             <meta-data
             android:name="android.support.PARENT_ACTIVITY"
-            android:value="hiof.android14.group26.peacekeeper.MainActivity" />
+            android:value="hiof.android14.group26.peacekeeper.LogOutActivity" />
                 
         </activity>
         

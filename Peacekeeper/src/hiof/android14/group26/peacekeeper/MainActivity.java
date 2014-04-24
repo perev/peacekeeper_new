@@ -196,15 +196,6 @@ public class MainActivity extends ActionBarActivity implements
 		startActivity(intent);
 	}
 	
-	public void startLogInActivity(View view) {
-		Intent intent = new Intent(this, LogInActivity.class);
-		startActivity(intent);
-	}
-	
-	public void startCreateAccountActivity(View view) {
-		Intent intent = new Intent(this, CreateAccountActivity.class);
-		startActivity(intent);
-	}
 
 	//	TODO: safe to remove this? /sigh
 //	@Override

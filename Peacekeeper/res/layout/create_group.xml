@@ -4,52 +4,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="42dp"
-        android:background="#dddddd" >
-
-        <ImageView
-            android:id="@+id/imageView5"
-            android:layout_width="150dp"
-            android:layout_height="40dp"
-            android:layout_alignParentBottom="true"
-            android:layout_centerInParent="true"
-            android:adjustViewBounds="true"
-            android:contentDescription="@string/logo"
-            android:scaleType="fitCenter"
-            android:src="@drawable/creategroup" />
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="42dp"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true"
-            android:background="#dddddd" >
-
-            <ImageView
-                android:id="@+id/ImageView01"
-                android:layout_width="150dp"
-                android:layout_height="40dp"
-                android:layout_alignParentBottom="true"
-                android:layout_marginLeft="10dp"
-                android:adjustViewBounds="true"
-                android:contentDescription="@string/logo"
-                android:scaleType="fitCenter"
-                android:src="@drawable/creategroup" />
-
-            <TextView
-                android:id="@+id/textView2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:layout_centerVertical="true"
-                android:layout_marginRight="15dp"
-                android:text="@string/done"
-                android:textAppearance="?android:attr/textAppearanceSmall" />
-        </RelativeLayout>
-    </RelativeLayout>
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -164,5 +118,13 @@
                 android:textSize="19sp" />
         </LinearLayout>
     </LinearLayout>
+
+    <Button
+        android:id="@+id/btnCreateGroup"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/createGroup" />
 
 </LinearLayout>
