@@ -108,10 +108,11 @@
     <string name="desc_list_item_icon">Item Icon</string>
     <string name="ok">Ok</string>
     <string name="currency_prompt">Choose a country</string>
-    
     <string name="title_activity_accountSettings">Account settings</string>
     <string name="title_activity_notificationSettings">Notification settings</string>
     <string name="title_activity_login">Login</string>
     <string name="title_activity_create_account">Create Account</string>
+    <string name="uploadPicture">Upload picture</string>
+    <string name="title_activity_upload_pic">UploadPicActivity</string>
 
 </resources>

@@ -27,50 +27,47 @@
             android:label="@string/title_activity_accountSettings"
             android:parentActivityName="hiof.android14.group26.peacekeeper.MainActivity" >
             <meta-data
-            android:name="android.support.PARENT_ACTIVITY"
-            android:value="hiof.android14.group26.peacekeeper.MainActivity" />
-                
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="hiof.android14.group26.peacekeeper.MainActivity" />
         </activity>
         <activity
             android:name="hiof.android14.group26.peacekeeper.NotificationActivity"
             android:label="@string/title_activity_notificationSettings"
             android:parentActivityName="hiof.android14.group26.peacekeeper.MainActivity" >
             <meta-data
-            android:name="android.support.PARENT_ACTIVITY"
-            android:value="hiof.android14.group26.peacekeeper.MainActivity" />
-                
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="hiof.android14.group26.peacekeeper.MainActivity" />
         </activity>
         <activity
             android:name="hiof.android14.group26.peacekeeper.LogOutActivity"
-            android:theme="@android:style/Theme.NoTitleBar"
-            android:parentActivityName="hiof.android14.group26.peacekeeper.MainActivity" >
+            android:parentActivityName="hiof.android14.group26.peacekeeper.MainActivity"
+            android:theme="@android:style/Theme.NoTitleBar" >
             <meta-data
-            android:name="android.support.PARENT_ACTIVITY"
-            android:value="hiof.android14.group26.peacekeeper.MainActivity" />
-                
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="hiof.android14.group26.peacekeeper.MainActivity" />
         </activity>
-        
         <activity
             android:name="hiof.android14.group26.peacekeeper.LogInActivity"
             android:label="@string/title_activity_login"
             android:parentActivityName="hiof.android14.group26.peacekeeper.LogOutActivity" >
             <meta-data
-            android:name="android.support.PARENT_ACTIVITY"
-            android:value="hiof.android14.group26.peacekeeper.LogOutActivity" />
-                
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="hiof.android14.group26.peacekeeper.LogOutActivity" />
         </activity>
-        
-         <activity
+        <activity
             android:name="hiof.android14.group26.peacekeeper.CreateAccountActivity"
             android:label="@string/title_activity_create_account"
             android:parentActivityName="hiof.android14.group26.peacekeeper.LogOutActivity" >
             <meta-data
-            android:name="android.support.PARENT_ACTIVITY"
-            android:value="hiof.android14.group26.peacekeeper.LogOutActivity" />
-                
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="hiof.android14.group26.peacekeeper.LogOutActivity" />
         </activity>
-        
-         <!--  Test commit 2 -->
+
+        <!-- Test commit 2 -->
+        <activity
+            android:name="hiof.android14.group26.peacekeeper.UploadPicActivity"
+            android:label="@string/title_activity_upload_pic" >
+        </activity>
     </application>
 
 </manifest>
