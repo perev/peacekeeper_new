@@ -62,11 +62,9 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="hiof.android14.group26.peacekeeper.LogOutActivity" />
         </activity>
-
-        <!-- Test commit 2 -->
         <activity
-            android:name="hiof.android14.group26.peacekeeper.UploadPicActivity"
-            android:label="@string/title_activity_upload_pic" >
+            android:name="hiof.android14.group26.peacekeeper.TaskActivity"
+            android:label="@string/title_activity_task" >
         </activity>
     </application>
 
