@@ -112,7 +112,7 @@
             android:text="@string/beResponsible" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/buttonAlert"
             style="?android:attr/buttonStyleSmall"
             android:layout_width="match_parent"
             android:layout_height="35dp"

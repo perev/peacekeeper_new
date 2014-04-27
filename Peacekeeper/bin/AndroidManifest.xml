@@ -66,6 +66,10 @@
             android:name="hiof.android14.group26.peacekeeper.TaskActivity"
             android:label="@string/title_activity_task" >
         </activity>
+        <activity
+            android:name="hiof.android14.group26.peacekeeper.MainTaskActivity"
+            android:label="@string/title_activity_main_task" >
+        </activity>
     </application>
 
 </manifest>
